@@ -1,0 +1,31 @@
+body {
+            background-image: ni.jpg;
+}
+div {
+    border-width: 20px;
+}
+#intro {
+    width:500px;
+    height:100px;
+    font-size: larger;
+    font-style: oblique;
+    outline-color: #190f53;
+    background-color: black;
+    background-position: center;
+    color: beige;
+}
+#new {
+    width:500px;
+    height:500px;
+    font-size: medium;
+    font-style: italic;
+    background-position: center;
+    background-color: black;
+
+}
+#green {
+    color: rgb(198, 231, 164);
+}
+#blue {
+    color: rgb(146, 180, 245);
+}

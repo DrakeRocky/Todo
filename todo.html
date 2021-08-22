@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title> To Do List </title >
+      <link href="todo.css" rel="stylesheet" type="text/css" />
+      <style>
+        body {
+          background-image: url('ni.jpg');
+        }
+        </style>
+  </head>
+  <body>
+    <div id="intro"> <b><em>This is a To Do List in which you can fill in all your day to day activities to keep track of everything that needs
+      to get done.</em></b> </div>
+    <div id="button"><input type="button" value="Add new tasks" onclick="add();">
+      <div id="new">
+        Tasks go here:
+        <ul>
+          <li id="green">Try to create a To Do List which accepts user input</li>
+          <li id="blue">Try for a whole day</li>
+          <li id="green">After reaching till input box after hrs of trying realise that you need PHP too.</li>
+          <li id="blue">Try to make it atleast presentable</li>
+          <li id="green">Fail at putting a background image</li>
+          <li id="blue">Time is already up </li>
+          <li id="green">Submit prototype and continue to work on it.</li>
+        </ul>
+      </div>
+      <script>
+      function add() {
+        var newtask=document.createElement('div');
+        newtask.innerHTML="<input type= 'text' id='task'>";
+        document.getElementById("new").appendChild(newtask);
+      }  
+      </script>
+    </button></div> 
+  </body>
+</html>
